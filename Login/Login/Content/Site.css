@@ -1,0 +1,42 @@
+﻿/*Define la altura de la pagina al 100% de la pantalla*/
+html {
+    height: 100%;
+}
+
+/*Clase que da el color al background en el login*/
+.background-index {
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    /*background: linear-gradient(to bottom right, red, yellow);*/
+}
+
+/*Definde el ancho del panel de inicio de sesion y registro*/
+.ancho-panel {
+    width: 50%;
+}
+
+/*Centra los paneles de inicio de sesion y registro verticalmente*/
+.centrar-panel {
+    margin-top: 25%;
+    /*width: 50%;*/
+    /*margin-left: 25%;*/
+}
+
+/*Estilos para el panel de inicio de sesion*/
+.inicio-sesion {
+    margin: 2%;
+    padding: 2%;
+}
+
+
+/*Estilos para los input de inicio de sesion*/
+.box-input {
+    margin: 2%;
+}
+
+
+/*Estilos para el div que separa el formulario de login del de registro*/
+.separador {
+    color: #007bff;
+    border-bottom: 1px solid #007bff;
+    margin: 4% 0 4% 0;
+}
