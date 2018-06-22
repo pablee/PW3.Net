@@ -1,0 +1,54 @@
+﻿@model Login.Usuario
+
+@{
+    ViewBag.Title = "Registracion";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<div class="container ancho-panel">
+    <div class="panel panel-default centrar-panel">
+        <div class="panel-heading"><h2>@ViewBag.Title</h2></div>
+        <div class="panel-body inicio-sesion">
+
+            @using (Html.BeginForm("Registracion", "Home", FormMethod.Post))
+            {
+                @Html.LabelFor(model => model.Nombre)
+                @Html.TextBoxFor(model => model.Nombre, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Nombre, "", new { @class = "text-danger" })
+                <br />
+
+                @Html.LabelFor(model => model.Apellido)
+                @Html.TextBoxFor(model => model.Apellido, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Apellido, "", new { @class = "text-danger" })
+                <br />
+
+                @Html.LabelFor(model => model.Email)
+                @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                <br />
+
+                @Html.LabelFor(model => model.Contrasenia, "Constraseña")
+                @Html.PasswordFor(model => model.Contrasenia, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Contrasenia, "", new { @class = "text-danger" })
+                <br />
+
+                @Html.LabelFor(model => model.Contrasenia2, "Repetir constraseña")
+                @Html.PasswordFor(model => model.Contrasenia2, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Contrasenia2, "", new { @class = "text-danger" })
+                <br />
+                /*
+                @Html.LabelFor(model => model.CodigoActivacion)
+                @Html.TextBoxFor(model => model.CodigoActivacion, new { @class = "form-control" })
+                */
+                <div class="g-recaptcha" data-sitekey="6Ld3NWAUAAAAAFvtenZZAv-cIAdwS3aOUaUR33zh"></div>
+                <span class = "text-danger">@ViewBag.Message</span>
+                <br />
+
+
+
+                <input type="submit" class="btn btn-primary" value="Registrarme" />
+            }
+
+        </div>
+    </div>
+</div>

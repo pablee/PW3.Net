@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.Title - Trabajo practico</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <!--reCaptcha-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>    
+
+    <script runat="server">
+
+        void ValidateBtn_Click(Object sender, EventArgs e)
+        {
+
+           if (Page.IsValid)
+           {
+              lblOutput.Text = "Required field is filled!";
+           }
+           else
+           {
+              lblOutput.Text = "Required field is empty!";
+           }
+        }
+
+    </script>
+</head>
+<body class="background-index">
+    <div class="container-fluid">
+
+        @RenderBody()
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+
+    </div>
+</body>
+</html>
