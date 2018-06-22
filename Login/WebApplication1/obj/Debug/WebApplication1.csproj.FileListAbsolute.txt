@@ -1,0 +1,300 @@
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\ApplicationInsights.config
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\WebApplication1.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.Process.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.IO.Pipes.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Security.AccessControl.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Security.Claims.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Security.Principal.Windows.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Threading.Thread.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Microsoft.AI.Web.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Microsoft.AI.WindowsServer.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Microsoft.ApplicationInsights.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\WebGrease.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Microsoft.AI.WindowsServer.xml
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Microsoft.AI.Web.xml
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\es\System.Web.Helpers.resources.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\es\System.Web.Mvc.resources.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\es\System.Web.Optimization.resources.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\es\System.Web.Razor.resources.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\es\System.Web.WebPages.resources.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\es\System.Web.WebPages.Deployment.resources.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\bin\es\System.Web.WebPages.Razor.resources.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+c:\users\pgarcia\source\repos\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\ApplicationInsights.config
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\WebApplication1.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\csc.exe
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\csc.exe.config
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\csc.rsp
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\csi.exe
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\csi.exe.config
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\csi.rsp
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.AppContext.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Console.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.IO.Compression.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Security.Claims.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.ValueTuple.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\vbc.exe.config
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\vbc.rsp
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Antlr3.Runtime.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Microsoft.AI.Web.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Newtonsoft.Json.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\System.Web.Helpers.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\System.Web.Mvc.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\System.Web.Optimization.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\System.Web.Razor.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\System.Web.WebPages.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\WebGrease.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\System.Web.Helpers.xml
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\System.Web.Mvc.xml
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\System.Web.Optimization.xml
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\System.Web.Razor.xml
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\System.Web.WebPages.xml
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Newtonsoft.Json.xml
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Antlr3.Runtime.pdb
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Microsoft.AI.Web.xml
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\es\System.Web.Razor.resources.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Pablo\Documents\Facultad\Programacion Web 3\Trabajo practico\Login\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\ApplicationInsights.config
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\WebApplication1.dll.config
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\WebApplication1.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\WebApplication1.pdb
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\csc.exe
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\csc.exe.config
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\csc.rsp
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\csi.exe
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\csi.exe.config
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\csi.rsp
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.AppContext.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Console.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Diagnostics.Process.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.IO.Compression.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.IO.Pipes.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Security.AccessControl.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Security.Claims.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Threading.Thread.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.ValueTuple.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\vbc.exe
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\vbc.exe.config
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\vbc.rsp
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Antlr3.Runtime.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Microsoft.AI.DependencyCollector.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Microsoft.AI.Web.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Microsoft.AI.WindowsServer.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Microsoft.ApplicationInsights.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Newtonsoft.Json.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\System.Web.Helpers.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\System.Web.Mvc.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\System.Web.Optimization.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\System.Web.Razor.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\System.Web.WebPages.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\System.Web.WebPages.Razor.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\WebGrease.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\System.Web.Helpers.xml
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\System.Web.Mvc.xml
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\System.Web.Optimization.xml
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\System.Web.Razor.xml
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\System.Web.WebPages.xml
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\System.Web.WebPages.Razor.xml
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Newtonsoft.Json.xml
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Antlr3.Runtime.pdb
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Microsoft.AI.WindowsServer.xml
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Microsoft.AI.Web.xml
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\es\System.Web.Helpers.resources.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\es\System.Web.Mvc.resources.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\es\System.Web.Optimization.resources.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\es\System.Web.Razor.resources.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\es\System.Web.WebPages.resources.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Archivos\Pablo\Facultad\Programacion Web III\Trabajo practico\Login\WebApplication1\obj\Debug\WebApplication1.pdb
