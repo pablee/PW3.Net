@@ -1,11 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text.RegularExpressions;
 
 namespace Login.Models
 {
     public class UsuarioMetadata
-    {
+    {       
         [Required]
         [StringLength(50)]
         public string Nombre { get; set; }
@@ -14,6 +15,8 @@ namespace Login.Models
         [StringLength(50)]
         public string Apellido { get; set; }
 
+
+        //Email de registro
         [Required]
         [StringLength(50)]
         [EmailAddress(ErrorMessage = "El email ingresado es invalido")]
@@ -29,7 +32,7 @@ namespace Login.Models
 
             //para validar que no exista otro email igual, debo chequear en la base
             TP_Entities ctx = new TP_Entities();
-
+            
             var existeEmail = ctx.Usuarios.Any(o => o.Email == usuario.Email);
 
             if (existeEmail)
@@ -41,6 +44,7 @@ namespace Login.Models
         }
 
 
+        //Validacion contraseña en registro
         [Required]
         [StringLength(20)]
         [CustomValidation(typeof(UsuarioMetadata), "ValidarContrasenia")]
@@ -99,5 +103,29 @@ namespace Login.Models
             return ValidationResult.Success;
         }
 
+
+        //Email de login
+        [Required(ErrorMessage = "El campo email de login es obligatorio")]
+        [StringLength(50)]
+        [EmailAddress(ErrorMessage = "El email ingresado es invalido")]
+        [CustomValidation(typeof(UsuarioMetadata), "ValidarEmailLogin")]
+        public string LoginEmail { get; set; }
+
+        public static ValidationResult ValidarEmailLogin(object value, ValidationContext context)
+        {
+            var usuario = context.ObjectInstance as Usuario;
+
+            if (usuario == null || string.IsNullOrEmpty(usuario.LoginEmail))
+                return new ValidationResult(string.Format("Email de login es requerido."));                        
+
+            return ValidationResult.Success;
+        }
+
+
+        //Validacion contraseña en login
+        [Required(ErrorMessage = "El campo contraseña de login es obligatorio")]
+        [StringLength(20)]        
+        public string LoginContrasenia { get; set; }
+      
     }
 }

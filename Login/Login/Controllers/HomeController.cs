@@ -1,7 +1,9 @@
 ﻿using Newtonsoft.Json.Linq;
 using System;
+using System.Data.Entity.Validation;
 using System.Linq;
 using System.Net;
+using System.Web;
 using System.Web.Mvc;
 
 namespace Login.Controllers
@@ -11,7 +13,17 @@ namespace Login.Controllers
         TP_Entities ctx = new TP_Entities();
 
         public ActionResult Index()
-        {
+        {            
+            if (Request.Cookies["recordarme"] != null && Request.Cookies["recordarme"]["estado"] == "verdadero" )
+            {
+                int id = Convert.ToInt32(Request.Cookies["recordarme"]["idUsuario"]);                    
+                Usuario UsLog = ctx.Usuarios.FirstOrDefault(o => o.IdUsuario == id);
+                Session["login"] = true;
+                Session["id"] = UsLog.IdUsuario;
+
+                return View("Home", UsLog);                
+            }
+
             return View();
         }
 
@@ -33,18 +45,17 @@ namespace Login.Controllers
             var status = (bool)obj.SelectToken("success");
             ViewBag.Message = status ? "Google reCaptcha validation success" : "Google reCaptcha validation failed";
 
-            if ((ModelState.IsValid)&&(status == true))
-            {
-                /*
-                DateTime myDateTime = DateTime.Now;
-                string sqlFormattedDate = myDateTime.ToString("yyyy-MM-dd HH:mm:ss.fff");
-                */        
+            if (status == true)
+            {                    
                 Us.FechaRegistracion = DateTime.Now;
                 Us.CodigoActivacion = result;
-                ctx.Usuarios.Add(Us);
-                ctx.SaveChanges();
+                //Prueba para registro
+                Us.LoginEmail = Us.Email;
+                Us.LoginContrasenia = Us.Contrasenia;
 
-                /*
+                ctx.Usuarios.Add(Us);
+                //ctx.SaveChanges();
+
                 try
                 {
                     ctx.SaveChanges();
@@ -65,33 +76,89 @@ namespace Login.Controllers
                     // Throw a new DbEntityValidationException with the improved exception message.
                     throw new DbEntityValidationException(exceptionMessage, ex.EntityValidationErrors);
                 }
-                */
+                                              
                 return RedirectToAction("Index");
             }
             else
-            {                
+            {
                 return View(Us);
             }
-            
-        }
-     
-        
-        [HttpPost]
-        public ActionResult Login(Usuario Us)
-        {                        
-            Usuario UsLog = ctx.Usuarios.FirstOrDefault(o => o.Email == Us.Email);
 
-            if ((UsLog != null) && (UsLog.Contrasenia == Us.Contrasenia))
+        }
+
+
+        public ActionResult Home()
+        {
+            if (Session["login"] is true)
             {
-                return View("Login", UsLog);
+                return View();
             }
             else
             {
-                ViewBag.Invalido = "Verifique usuario y / o contraseña.";
+                return View("Index");
             }
-            
+        }
+
+
+        [HttpPost]
+        public ActionResult Login(Usuario Us)
+        {                        
+            Usuario UsLog = ctx.Usuarios.FirstOrDefault(o => o.Email == Us.LoginEmail);
+
+            if (UsLog != null)
+            {
+                if (UsLog.Activo == 1)
+                {
+                    if ((UsLog.Email == Us.LoginEmail) && (UsLog.Contrasenia == Us.LoginContrasenia))
+                    {
+                        if (Us.Recordarme is true)
+                        {
+                            /*
+                            HttpCookie recordarme = new HttpCookie("recordarme");
+                            recordarme.Value = "verdadero";
+                            recordarme.Expires = DateTime.Now.AddDays(1);
+                            Response.Cookies.Add(recordarme);
+                            */
+                            HttpCookie recordarme = new HttpCookie("recordarme");
+                            recordarme["estado"] = "verdadero";
+                            recordarme["idUsuario"] = UsLog.IdUsuario.ToString();
+                            recordarme.Expires = DateTime.Now.AddDays(1);
+                            Response.Cookies.Add(recordarme);
+                        }
+
+                        Session["login"] = true;
+                        Session["id"] = UsLog.IdUsuario;
+                        return View("Home", UsLog);
+                    }
+                    else
+                    {
+                        ViewData["Invalido"] = "Verifique usuario y / o contraseña.";
+                    }
+                }
+                else if (UsLog.Activo == 0)
+                {
+                    ViewData["Inactivo"] = "Usuario inactivo.";
+                }
+            }
+            else
+            {
+                ViewData["Invalido"] = "Verifique usuario y / o contraseña.";
+            }
+
             return View("Index",Us);                        
         }
-        
+
+
+        public ActionResult Logout()
+        {
+            if (Request.Cookies["recordarme"] != null)
+            {
+                Response.Cookies["recordarme"].Expires = DateTime.Now.AddDays(-1);
+            }
+            Session.Abandon();
+
+            return RedirectToAction("Index");
+        }
     }
+
 }
