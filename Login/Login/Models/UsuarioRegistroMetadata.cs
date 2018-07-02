@@ -3,10 +3,11 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text.RegularExpressions;
 
+    
 namespace Login.Models
 {
-    public class UsuarioMetadata
-    {       
+    public class UsuarioRegistroMetadata
+    {
         [Required]
         [StringLength(50)]
         public string Nombre { get; set; }
@@ -20,20 +21,20 @@ namespace Login.Models
         [Required]
         [StringLength(50)]
         [EmailAddress(ErrorMessage = "El email ingresado es invalido")]
-        [CustomValidation(typeof(UsuarioMetadata), "ValidarEmailUnico")]
+        [CustomValidation(typeof(UsuarioRegistroMetadata), "ValidarEmailUnico")]
         public string Email { get; set; }
 
         public static ValidationResult ValidarEmailUnico(object value, ValidationContext context)
         {
-            var usuario = context.ObjectInstance as Usuario;
+            var usuario = context.ObjectInstance as UsuarioRegistro;
 
             if (usuario == null || string.IsNullOrEmpty(usuario.Email))
                 return new ValidationResult(string.Format("Email es requerido."));
 
             //para validar que no exista otro email igual, debo chequear en la base
             TP_Entities ctx = new TP_Entities();
-            
-            var existeEmail = ctx.Usuarios.Any(o => o.Email == usuario.Email);
+
+            var existeEmail = ctx.Usuarios.Any(o => o.Email == usuario.Email && o.Activo == 1);
 
             if (existeEmail)
             {
@@ -47,16 +48,16 @@ namespace Login.Models
         //Validacion contraseña en registro
         [Required]
         [StringLength(20)]
-        [CustomValidation(typeof(UsuarioMetadata), "ValidarContrasenia")]
+        [CustomValidation(typeof(UsuarioRegistroMetadata), "ValidarContrasenia")]
         public string Contrasenia { get; set; }
 
         public static ValidationResult ValidarContrasenia(object value, ValidationContext context)
         {
-            var usuario = context.ObjectInstance as Usuario;
+            var usuario = context.ObjectInstance as UsuarioRegistro;
 
             if (usuario == null || string.IsNullOrEmpty(usuario.Contrasenia))
                 return new ValidationResult(string.Format("La contraseña es requerida."));
-          
+
             string mayusculas = "^(?=.*[A-Z])";
             string minusculas = "^(?=.*[a-z])";
             string numeros = "^(?=.*[0-9])";
@@ -83,18 +84,18 @@ namespace Login.Models
         }
 
 
-        [Required(ErrorMessage = "Este campo es obligatorio")]
+        [Required(ErrorMessage = "Validar la contraseña es obligatorio")]
         [StringLength(20)]
-        [CustomValidation(typeof(UsuarioMetadata), "ValidarContraseniasIguales")]
+        [CustomValidation(typeof(UsuarioRegistroMetadata), "ValidarContraseniasIguales")]
         public string Contrasenia2 { get; set; }
 
         public static ValidationResult ValidarContraseniasIguales(object value, ValidationContext context)
         {
-            var usuario = context.ObjectInstance as Usuario;
+            var usuario = context.ObjectInstance as UsuarioRegistro;
 
             if (usuario == null || string.IsNullOrEmpty(usuario.Contrasenia))
-                return new ValidationResult(string.Format("La contraseña es requerida."));      
-            
+                return new ValidationResult(string.Format("La contraseña es requerida."));
+
             if (usuario.Contrasenia != usuario.Contrasenia2)
             {
                 return new ValidationResult(string.Format("Las contraseñas no coinciden", usuario.Contrasenia));
@@ -102,30 +103,7 @@ namespace Login.Models
 
             return ValidationResult.Success;
         }
-
-
-        //Email de login
-        [Required(ErrorMessage = "El campo email de login es obligatorio")]
-        [StringLength(50)]
-        [EmailAddress(ErrorMessage = "El email ingresado es invalido")]
-        [CustomValidation(typeof(UsuarioMetadata), "ValidarEmailLogin")]
-        public string LoginEmail { get; set; }
-
-        public static ValidationResult ValidarEmailLogin(object value, ValidationContext context)
-        {
-            var usuario = context.ObjectInstance as Usuario;
-
-            if (usuario == null || string.IsNullOrEmpty(usuario.LoginEmail))
-                return new ValidationResult(string.Format("Email de login es requerido."));                        
-
-            return ValidationResult.Success;
-        }
-
-
-        //Validacion contraseña en login
-        [Required(ErrorMessage = "El campo contraseña de login es obligatorio")]
-        [StringLength(20)]        
-        public string LoginContrasenia { get; set; }
-      
+            
     }
 }
+    

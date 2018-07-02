@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using Login.Models;
 
 namespace Login.Controllers
 {
@@ -35,7 +36,7 @@ namespace Login.Controllers
 
 
         [HttpPost]
-        public ActionResult Registracion(Usuario Us)
+        public ActionResult Registracion(UsuarioRegistro UsReg)
         {
             var response = Request["g-recaptcha-response"];
             string secretKey = "6Ld3NWAUAAAAAJJ2Mco-UNBPCdXwIZwIeNs1r6fC";
@@ -44,49 +45,69 @@ namespace Login.Controllers
             var obj = JObject.Parse(result);
             var status = (bool)obj.SelectToken("success");
             ViewBag.Message = status ? "Google reCaptcha validation success" : "Google reCaptcha validation failed";
+            status = true;
 
             if (status == true)
-            {                    
-                Us.FechaRegistracion = DateTime.Now;
-                Us.CodigoActivacion = result;
-                //Prueba para registro
-                Us.LoginEmail = Us.Email;
-                Us.LoginContrasenia = Us.Contrasenia;
+            {
+                TP_Entities ctx = new TP_Entities();
+                Usuario UsEncontrado = ctx.Usuarios.FirstOrDefault(o => o.Email == UsReg.Email && o.Activo == 0);
 
-                ctx.Usuarios.Add(Us);
-                //ctx.SaveChanges();
-
-                try
+                if (UsEncontrado == null)
                 {
-                    ctx.SaveChanges();
+                    Usuario UsNuevo = new Usuario();
+                    UsNuevo.Nombre = UsReg.Nombre;
+                    UsNuevo.Apellido = UsReg.Apellido;
+                    UsNuevo.Email = UsReg.Email;
+                    UsNuevo.Contrasenia = UsReg.Contrasenia;
+                    UsNuevo.FechaRegistracion = DateTime.Now;
+                    UsNuevo.CodigoActivacion = result;
+                    
+                    ctx.Usuarios.Add(UsNuevo);
+                    //ctx.SaveChanges();
+
+                    try
+                    {
+                        ctx.SaveChanges();
+                    }
+                    catch (DbEntityValidationException ex)
+                    {
+                        // Retrieve the error messages as a list of strings.
+                        var errorMessages = ex.EntityValidationErrors
+                                .SelectMany(x => x.ValidationErrors)
+                                .Select(x => x.ErrorMessage);
+
+                        // Join the list to a single string.
+                        var fullErrorMessage = string.Join("; ", errorMessages);
+
+                        // Combine the original exception message with the new one.
+                        var exceptionMessage = string.Concat(ex.Message, " The validation errors are: ", fullErrorMessage);
+
+                        // Throw a new DbEntityValidationException with the improved exception message.
+                        throw new DbEntityValidationException(exceptionMessage, ex.EntityValidationErrors);
+                    }
                 }
-                catch (DbEntityValidationException ex)
+                else 
                 {
-                    // Retrieve the error messages as a list of strings.
-                    var errorMessages = ex.EntityValidationErrors
-                            .SelectMany(x => x.ValidationErrors)
-                            .Select(x => x.ErrorMessage);
-
-                    // Join the list to a single string.
-                    var fullErrorMessage = string.Join("; ", errorMessages);
-
-                    // Combine the original exception message with the new one.
-                    var exceptionMessage = string.Concat(ex.Message, " The validation errors are: ", fullErrorMessage);
-
-                    // Throw a new DbEntityValidationException with the improved exception message.
-                    throw new DbEntityValidationException(exceptionMessage, ex.EntityValidationErrors);
+                    UsEncontrado.Nombre = UsReg.Nombre;
+                    UsEncontrado.Apellido = UsReg.Apellido;
+                    UsEncontrado.Contrasenia = UsReg.Contrasenia;
+                    UsEncontrado.Activo = 1;
+                    UsEncontrado.FechaActivacion = DateTime.Now;
+                    
+                    ViewBag.Reactivado = UsReg;
+                    return View("Reactivacion");
                 }
-                                              
+
                 return RedirectToAction("Index");
             }
             else
             {
-                return View(Us);
+                return View(UsReg);
             }
 
         }
 
-
+        
         public ActionResult Home()
         {
             if (Session["login"] is true)
@@ -99,26 +120,20 @@ namespace Login.Controllers
             }
         }
 
-
+        
         [HttpPost]
-        public ActionResult Login(Usuario Us)
+        public ActionResult Login(UsuarioLogin Us)
         {                        
-            Usuario UsLog = ctx.Usuarios.FirstOrDefault(o => o.Email == Us.LoginEmail);
+            Usuario UsLog = ctx.Usuarios.FirstOrDefault(o => o.Email == Us.Email);
 
             if (UsLog != null)
             {
                 if (UsLog.Activo == 1)
                 {
-                    if ((UsLog.Email == Us.LoginEmail) && (UsLog.Contrasenia == Us.LoginContrasenia))
+                    if ((UsLog.Email == Us.Email) && (UsLog.Contrasenia == Us.Contrasenia))
                     {
                         if (Us.Recordarme is true)
-                        {
-                            /*
-                            HttpCookie recordarme = new HttpCookie("recordarme");
-                            recordarme.Value = "verdadero";
-                            recordarme.Expires = DateTime.Now.AddDays(1);
-                            Response.Cookies.Add(recordarme);
-                            */
+                        {                            
                             HttpCookie recordarme = new HttpCookie("recordarme");
                             recordarme["estado"] = "verdadero";
                             recordarme["idUsuario"] = UsLog.IdUsuario.ToString();

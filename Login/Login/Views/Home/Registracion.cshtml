@@ -1,4 +1,4 @@
-﻿@model Login.Usuario
+﻿@model Login.Models.UsuarioRegistro
 
 @{
     ViewBag.Title = "Registracion";
@@ -36,10 +36,7 @@
                 @Html.PasswordFor(model => model.Contrasenia2, new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.Contrasenia2, "", new { @class = "text-danger" })
                 <br />
-                /*
-                @Html.LabelFor(model => model.CodigoActivacion)
-                @Html.TextBoxFor(model => model.CodigoActivacion, new { @class = "form-control" })
-                */
+              
                 <div class="g-recaptcha" data-sitekey="6Ld3NWAUAAAAAFvtenZZAv-cIAdwS3aOUaUR33zh"></div>
                 <span class = "text-danger">@ViewBag.Message</span>
                 <br />
