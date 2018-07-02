@@ -28,13 +28,13 @@ namespace Login.Controllers
             return View();
         }
 
-
+        //Devuelve la vista.
         public ActionResult Registracion()
         {           
             return View();
         }
 
-
+        //Recibe el formulario de registro.
         [HttpPost]
         public ActionResult Registracion(UsuarioRegistro UsReg)
         {
@@ -47,7 +47,7 @@ namespace Login.Controllers
             ViewBag.Message = status ? "Google reCaptcha validation success" : "Google reCaptcha validation failed";
             status = true;
 
-            if (status == true)
+            if (ModelState.IsValid && status == true)
             {
                 TP_Entities ctx = new TP_Entities();
                 Usuario UsEncontrado = ctx.Usuarios.FirstOrDefault(o => o.Email == UsReg.Email && o.Activo == 0);
@@ -120,13 +120,19 @@ namespace Login.Controllers
             }
         }
 
-        
+        //Devuelve la vista.
+        public ActionResult Login()
+        {
+            return View();
+        }
+
+        //Recibe el formulario de login.
         [HttpPost]
         public ActionResult Login(UsuarioLogin Us)
         {                        
             Usuario UsLog = ctx.Usuarios.FirstOrDefault(o => o.Email == Us.Email);
 
-            if (UsLog != null)
+            if (ModelState.IsValid && UsLog != null)
             {
                 if (UsLog.Activo == 1)
                 {
@@ -160,10 +166,10 @@ namespace Login.Controllers
                 ViewData["Invalido"] = "Verifique usuario y / o contraseña.";
             }
 
-            return View("Index",Us);                        
+            return View("Login",Us);                        
         }
 
-
+        //Finaliza la sesion del usuario.
         public ActionResult Logout()
         {
             if (Request.Cookies["recordarme"] != null)

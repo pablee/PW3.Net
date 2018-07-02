@@ -1,0 +1,36 @@
+﻿@model Login.Models.UsuarioLogin
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+
+<div class="container ancho-panel">
+    <div class="panel panel-default centrar-panel">
+        <div class="panel-body inicio-sesion">
+            @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+            {
+                @Html.LabelFor(model => model.Email, "Email")
+                @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                <br />
+                @Html.LabelFor(model => model.Contrasenia, "Constraseña")
+                @Html.PasswordFor(model => model.Contrasenia, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Contrasenia, "", new { @class = "text-danger" })
+                <br />
+
+                @Html.LabelFor(model => model.Recordarme)
+                @Html.CheckBoxFor(model => model.Recordarme, new { @class = "checkbox" });
+                <br />
+
+                <span class="text-danger">@ViewData["Invalido"]</span>
+                <span class="text-danger">@ViewData["Inactivo"]</span>
+
+                <button type="submit" class="btn btn-primary btn-block">Iniciar sesi&oacute;n</button>
+            }           
+        </div>
+    </div>
+</div>
+
+
